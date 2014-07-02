@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)http://segmentfault.com/hackathon-2014 -->
+<html class="no-js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>《R语言和Hadoop系统架构在大数据分析中的应用》培训课程（贵州站）</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+
+        <link rel="stylesheet" href="/sf/css/normalize.css?14.6.26.1">
+        <link rel="stylesheet" href="/sf/css/bento.css?14.6.26.1">
+        <link rel="stylesheet" href="/sf/css/main.css?14.6.26.1">
+        <!--[if lt IE 9]>
+        <script src="http://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+        <script src="http://cdn.staticfile.org/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <style type='text/css'>
+        #header { text-align: center; }
+        .site-logo { width: 128px; }
+        #home-guest h3, #home-guest p{color: #ffffff}
+        .schedule-table {
+          width: 70%;
+          margin-top: 15px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .schedule-table .time {
+         width: 200px;
+        }
+        #wufoo-z1m3r7hd14m3l1c{
+          background-color: #ffffff;
+          width: 60%;
+          margin-left: auto;
+          margin-right: auto;
+        }     
+    
+        @media(max-width:991px){
+         #wufoo-z1m3r7hd14m3l1c{
+          background-color: #ffffff;
+          width: 100%
+          }   
+          .schedule-table {
+            width: 100%;
+          }
+        .schedule-table .time {
+         width: 30%;
+        }
+        }
+    </style>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <header class="header">
+            <div class="container">
+                <div class="colgroup">
+                    <div class="col-mb-12">
+                        <h1 class="site-logo">SupStat</h1>
+                        <ul class="site-navi kit-hidden-tb">
+                            <li class="current"><a href="#home-summary">首页</a></li>
+                            <li class=""><a href="#home-about">课程介绍</a></li>
+                            <li class=""><a href="#about-r">关于R语言</a></li>
+                            <li class=""><a href="#home-guest">讲师介绍</a></li>
+                            <li class=""><a href="#home-agenda">课程大纲</a></li>
+                            <li class=""><a href="#home-join">报名</a></li>
+                            <li class=""><a href="#home-notes">注意事项</a></li>
+                        </ul>
+                        <a href="#home-join" class="btn-apply">报名参加</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="home-summary">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="colgroup">
+                    <header id="header" class="col-mb-12 kit-hidden-tb">
+                        <a href=""><img class="logo" src="/sf/img/logo.png" alt="黑客马拉松"></a>
+                    </header>
+                    <div class="summary col-8 col-mb-12">
+                        <h2>8月22-24日 · 贵阳</h2>
+                        <p style="text-align:center">《R语言和Hadoop系统架构在大数据分析中的应用》<br>培训课程（贵州站）</p>
+                    </div>
+                    <div class="apply col-3 kit-hidden-tb">
+                        <p>时间：2014年8月22-24日<br>地点：贵阳市贵州财经大学鹿冲关校区实验楼（可帮助外地学员联系食宿，费用自理）</p>
+                        <p><a href="#home-join"><img src="/sf/img/btn-apply.png" alt="立即报名"></a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="home-about">
+            <div class="container">
+                <div class="colgroup">
+                    <h2 class="section-title">课程介绍</h2>
+                    <section class="col-mb-12 col-6">
+                        <h3>主办方介绍</h3>
+                        <p>为支持贵州省大数据产业发展，培养更多具有数据分析技能、大数据技术的专业人才，SupStat公司联合贵州财经大学开展《R语言和Hadoop系统架构在大数据分析中的应用》培训课程。</p>
+                        <p><a href="http://supstat.com" target="_blank">SupStat</a>是一家提供数据分析、数据挖掘以及大数据解决方案的公司，在北京的的分支机构名为北京数博思达信息科技有限公司。SupStat提供数据分析的培训、咨询，为客户定制开发数据分析平台，协助客户挖掘复杂统计分析的能量，支持关键的业务决策。公司掌握数据分析行业的前沿技术，客户涵盖医学、金融、互联网、市场营销等多种行业，积累了宝贵的技术经验与资源，竭力提供高质量的客户体验。</p>
+                        <p>SupStat也是一家专业的R语言咨询与培训公司，在纽约、旧金山、北京、上海等地提供与业界实际应用紧密结合的公开培训与企业定制培训。
+                         </p>
+                    </section>
+
+                    <section class="col-mb-12 col-6">
+                        <h3>培训目的和特色</h3>        
+                       <ol>
+                      <li>第一天的基础课程不单讲R，也讲解与大数据应用相关的Linux和Java的基础知识</li>
+                      <li>课程由在业界有多年应用经验的讲师提供，确保培训不是纸上谈兵；</li>
+                      <li>将R语言的教学与工程实践相结合，可以让初学者更快应用到实际工作中；</li>
+                       </ol>
+                        
+                        <h3>针对人群</h3>
+                        <ol>
+                        <li>有一定R语言基础，还对大数据技术感兴趣的数据分析师</li>
+                        <li>在hadoop方面有一定基础，但希望接触R语言以提高效率的开发者</li>
+                        </ol>
+
+                    </section>
+                </div>
+                <div class="colgroup" id="about-r">
+                    <h2 class="section-title">关于R语言</h2>
+                    
+                     <section class="col-mb-12 col-6">
+                        <h3>R语言介绍</h3>        
+                        <p>R语言是一种用来进行数据探索、统计分析、作图的解释型语言。它具有丰富的数据类型、灵活多样的作图功能，以及数量众多的算法功能包；提供了有弹性的、交互的环境来分析和处理数据；正由于R软件此强大的功能，同时具有灵活、开放、易于掌握、免费等诸多优点，目前已在各行各业赢得数据分析者的青睐，并成为众多科研工作者、商业机构、与公司进行数据分析非常重要的一门工具。<p>
+
+                    </section>
+                    
+                    <section class="col-mb-12 col-6"> 
+                        
+                        <h3>为什么要用Rhadoop</h3>
+                        <p>Hadoop主要用来存储海量数据，R语言完成MapReduce 算法，用来替代Java的MapReduce实现。有了RHadoop可以让广大的R语言爱好者，有更强大的工具处理大数据1G, 10G, 100G, TB, PB。由于大数据所带来的单机性能问题，可能会一去不复返了。</p>
+                    </section>
+                    
+                    <div class="clearfix"></div>
+                    
+                     <section class="col-mb-12 col-6">
+                        <h3>为什么要选择R语言</h3>        
+                        <ul class="clearfix">
+                        <li>免费的软件。</li>
+                        <li>编程方便，语言灵活，图形功能强大。</li>
+                        <li>用户量增加最快的统计软件。</li>
+                        <li>优秀的内在帮助系统。</li>
+                        </ul>
+                     <h3>R语言现状</h3>
+                       <p>国际上R语言已然是专业数据分析领域的标准。</p>
+                    </section>
+                    
+                  <section class="col-mb-12 col-6">
+                       <h3>R语言优势</h3>
+                       <ul class="clearfix">
+                         <li>统计学家和前沿算法（5000+ 扩展包）。</li>
+                         <li>可以部署在任何操作系统，例如Windows、Linux、Mac OS X、BSD、Unix。</li>
+                         <li>强大的社区支持。</li>
+                         <li>高质量、广泛的统计分析、数据挖掘平台。</li>
+                         <li>R语言的强大分析能力+LaTeX完美的排版能力，可以自动生成分析报告。</li>
+                         <li>方便的扩展性。</li>
+                       </ul> 
+                  </section>
+                    
+                    <section class="col-mb-12">
+                        <h3>R语言认知度</h3>
+                        <p>
+                        在最近一次数据挖掘领域语言流行度的调查中，R语言位居数据挖掘领域所有语言之首。2014 Dice Tech Salary Survey统计显示美国平均收入最高的IT技能是R语言，2013年的掌握R技能的人均收入为115K。O'Reilly Data Scientist Survey同样显示R技术者年收入在110K-125K。[<a href="http://blog.revolutionanalytics.com/2014/02/r-salary-surveys.html" target="_blank">查看原文...</a>]
+                        </p>
+                    </section>
+
+                    <div class="col-mb-12 col-6">
+                    <div class="text-center"><img src="/sf/img/salary1.png" alt=""></div>
+                    </div>
+
+                    <div class="col-mb-12 col-6">
+                    <div class="text-center"><img  src="/sf/img/salary2.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="home-guest">
+            <div class="container">
+                <div class="colgroup">
+                    <h2 class="section-title">讲师介绍</h2>
+                  <section class="col-mb-12 col-6">
+                       <h3>陈堰平</h3>
+                      <p>SupStat公司数据科学家，曾给惠普中国研发中心、花旗银行、东方航空、中国电信做过培训和咨询，多次在中国R语言会议上发表演讲，2013 Oracle技术嘉年华演讲嘉宾。现在同时也是统计之都管理团队成员，<a href="http://datameng.com" target="_blank">数盟社区</a>联合创始人，中国R语言会议理事会成员，曾获CQF国际数量金融认证，译作有《R语言编程艺术》</p>
+                  </section>
+                  
+                  <section class="col-mb-12 col-6">
+                       <h3>游皓麟</h3>
+                      <p>高级数据分析师，在互联网/电信/电力领域具有丰富的建模经验，精通Clementine、R语言等数据挖掘工具，对欺诈检测、广告反作弊、推荐系统、客户及营销建模有深刻理解。</p>
+                  </section>
+                </div>
+            </div>
+        </section>
+        
+        <section id="home-agenda">
+            <div class="container">
+                <div class="colgroup">
+                    <h2 class="section-title">课程大纲</h2>
+
+                    <div class="col-mb-12">
+                        <table class="schedule-table">
+                            <tbody>
+                                <tr>
+                                    <th colspan="2">第 1 天 <small>2014.8.22 周五</small><br>基础知识</th>
+                                </tr>
+                      
+                                <tr>
+                           
+                                    <td class="time">linux 基础 </td>
+                                    <td><ul><li>Ubuntu的环境</li><li>基本命令行操作</li></ul></td>
+                                </tr>
+                                <tr>
+                                    <td class="time">Java基础</td>
+                                    <td>
+                                    <ul>
+                                      <li>JAVA 基本概念</li>
+                                      <li>JAVA 基本核心包和语法</li>
+                                      <li>JAVA 开发工具</li>
+                                      </ul>                                    
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="time">R基础</td>
+                                    <td>
+                                    <ul>
+                                      <li>R 基本概念</li>
+                                      <li>R 核心函数和语法</li>
+                                    </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="time">安装系统配置基本环境</td>
+                                    <td>系统要求：ubuntu 12.04 LTS 64 位 server版<br>
+如果使用window 的朋友，安装虚拟机 VirtualBox，在虚拟机中安装 ubuntu
+</td>
+                                </tr>
+                           
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="col-mb-12">
+                        <table class="schedule-table">
+                            <tbody>
+                                <tr>
+                                    <th colspan="2">第 2 天 <small>2014.08.23 周六</small><br>RHadoop 基础</th>
+                                </tr>
+            
+                                <tr>
+                                
+                                    <td class="time">Hadoop 环境搭建</td>
+                                    <td><ul>
+                                      <li>环境规划</li>
+                                      <li>软件安装</li>
+                                      <li>环境测试</li>
+                                    </ul></td>
+                                </tr>
+                                <tr>
+                                    <td class="time">R与 Hadoop 集成</td>
+                                    <td>
+                                    <ul>
+                                      <li>安装R</li>
+                                      <li>安装rhdfs</li>
+                                      <li>安装rmr</li>
+                                    </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="time">RHadoop 操作入门</td>
+                                    <td>
+                                      <ul>
+                                        <li>HDFS基本操作</li>
+                                        <li>MapReduce 原理及案例</li>
+                                        <li>Streaming案例</li>
+                                      </ul>
+                                    </td>
+                                </tr>                                
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="col-mb-12">
+                        <table class="schedule-table">
+                            <tbody>
+                                <tr>
+                                    <th colspan="2">第 3 天 <small>2014.08.25 周日</small><br>RHadoop 高级分析</th>
+                                </tr>
+                                <tr>
+                                
+                                    <td class="time">线性回归</td>
+                                    <td>
+                                    <ul>
+                                      <li>线性回归基于MapReduce 的拆分原理</li>
+                                      <li>线性回归基于RHadoop的实现</li>
+                                      <li>案例：预测汽车的销售量</li>
+                                    </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="time">logistic回归</td>
+                                    <td>
+                                     <ul>
+                                      <li>logistic回归基于MapReduce 的拆分原理</li>
+                                      <li>logistic回归基于RHadoop的实现</li>
+                                      <li>案例：评估电信客户流失的概率</li>
+                                    </ul>                                   
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="time">朴素贝叶斯分类</td>
+                                    <td>
+                                    <ul>
+                                      <li>朴素贝叶斯分类基于 MapReduce 的拆分原理</li>
+                                      <li>朴素贝叶斯分类基于 RHadoop的实现</li>
+                                      <li>案例：将网页文本分类</li>
+                                    </ul>                                    
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="time">Kmeans 聚类</td>
+                                    <td>
+                                    <ul>
+                                      <li>Kmeans聚类基于MapReduce 的拆分原理</li>
+                                      <li>Kmeans聚类基于RHadoop 的实现</li>
+                                      <li>案例：细分银行的潜在客户</li>
+                                    </ul>                                    
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="time">协同过滤</td>
+                                    <td>
+                                     <ul>
+                                      <li>协同过滤基于MapReduce 的拆分原理</li>
+                                      <li>协同过滤基于RHadoop的实现</li>
+                                      <li>案例：基于历史评分推荐图书</li>
+                                    </ul>                                   
+                                    </td>
+                                </tr>                               
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="home-organizer">
+            <div class="container">
+                <div class="colgroup">
+                    <h2 class="section-title">主办方</h2>
+                    <div class="col-mb-12">                        
+                        <a href="http://supstat.com/" target="_blank"><img src="/sf/img/supstat-new-logo.png" alt="SupStat"></a>
+                        <a href="http://www.gzife.edu.cn/" target="_blank"><img src="/sf/img/gufe.jpg" alt="GUFE"></a>          
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="home-join">
+            <div class="container">
+                <div class="colgroup">
+                    <section class="col-mb-12">
+                        <a href="http://segmentfault.com/" target="_blank"><img src="/sf/img/logo.png" alt="SegmentFault"></a>
+                        <h2>报名费</h2>
+                        <p>1800元/人 （7月20日前报名并缴费的学员可享有8折优惠,8月10日前报名并缴费的学员可享9折优惠）<br>
+                           1500元/人 （全日制本科生或硕士生，不含发票，不享受上述优惠）          
+                        </p>
+                        <h2 class="btn-apply">立即报名</h2>
+                        <div id="wufoo-z1m3r7hd14m3l1c">
+                          填写<a href="https://supstat.wufoo.com/forms/z1m3r7hd14m3l1c">在线报名表</a>.
+                          </div>
+                          <script type="text/javascript">var z1m3r7hd14m3l1c;(function(d, t) {
+                          var s = d.createElement(t), options = {
+                          'userName':'supstat',
+                          'formHash':'z1m3r7hd14m3l1c',
+                          'autoResize':true,
+                          'height':'897',
+                          'async':true,
+                          'host':'wufoo.com',
+                          'header':'show',
+                          'ssl':true};
+                          s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+                          s.onload = s.onreadystatechange = function() {
+                          var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                          try { z1m3r7hd14m3l1c = new WufooForm();z1m3r7hd14m3l1c.initialize(options);z1m3r7hd14m3l1c.display(); } catch (e) {}};
+                          var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+                          })(document, 'script');</script>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section id="home-notes">
+            <div class="container">
+                <div class="colgroup">
+                    <h2 class="section-title">注意事项</h2>
+                   
+                    <section class="col-mb-12 col-6">
+                        <h3>课前准备</h3>                       
+                        <ol>                      
+                          <li>要求学员自备笔记本电脑，最低配置2 核 CPU, 4G内存, 50G硬盘。</li>
+                          <li>直接参加后两天课程的朋友，请提前准备好第一天第 4 部分要求的Linux Ubuntu环境。</li>
+                        </ol>
+                    </section>
+
+                    <section class="col-mb-12 col-6">
+                        <h3>咨询方式</h3>                       
+                        <p>如果想了解本次课程详细信息或者其他时间段的培训计划，请通过以下方式联系<br/>
+                        <strong>电话</strong>：186-0002-1946<br/>
+                        <strong>邮箱</strong>：contact@supstat.com</p>
+                    </section>
+                 
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="colgroup">
+                    <section class="col-mb-12">
+                        <p>Copyright &copy; 2014 <a href="http://supstat.com/">supstat.com</a></p>
+                    </section>
+                </div>
+            </div>
+        </footer>
+
+        <script src="/sf/js/jquery-1.9.1.min.js"></script>
+        <script src="/sf/js/jquery.scrollTo.js"></script>
+        <script src="/sf/js/jquery.nav.js"></script>
+<script>
+$('.site-navi').onePageNav({
+    currentClass: 'current',
+    changeHash: false,
+    scrollSpeed: 750,
+    scrollOffset: 30,
+    scrollThreshold: 0.5,
+    filter: '',
+    easing: 'swing',
+    begin: function() {
+        //I get fired when the animation is starting
+    },
+    end: function() {
+        //I get fired when the animation is ending
+    },
+    scrollChange: function($currentListItem) {
+        //I get fired when you enter a section and I pass the list item of the section
+    }
+});
+</script>
+
+</body></html>
